@@ -34,7 +34,7 @@ g
             case '*':
                 out = num1 * num2;
                 break;
-
+            case '/':
             try {
                 out = num1 / num2;
             } catch (ArithmeticException e) {
