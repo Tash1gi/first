@@ -34,16 +34,16 @@ g
             case '*':
                 out = num1 * num2;
                 break;
+
+            try {
+                out = num1 / num2;
+            } catch (ArithmeticException e) {
+                System.out.println("на ноль делить нельзя.");
+            }
+            break;
+            default:
+                System.out.println("Неправильно введите ещё раз.");
         }
-        try {
-            out = num1 / num2;
-        } catch (ArithmeticException e) {
-            System.out.println("на ноль делить нельзя.");
-        }
-        break;
-        default:
-        System.out.println("Неправильно введите ещё раз.");
-        g
     }
     }
 
