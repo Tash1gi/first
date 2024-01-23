@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("Введите первое число");
         float num1 = scanner.nextFloat();
-g
+
         //Пользователь должен ввести свое второе число
 
         System.out.println("Введите второе число");
